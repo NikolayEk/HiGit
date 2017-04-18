@@ -1,6 +1,8 @@
+
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   }
 
  
@@ -101,8 +103,8 @@ header{
     }
 
     .logo{
-      width: 120px;
-      height: 120px;
+      width: 170px;
+      height: 170px;
       margin-right: 50px;
       padding: 30px;
       text-align: center;
@@ -128,26 +130,72 @@ header{
 
     .introleft{
       width: 600px;
-      height: 400px;
+      height: 440px;
       border: 0.5px solid black;
       display: inline-block;
       margin:20px;
+      vertical-align: top;
     }
 
     .introright{
       width: 600px;
-      height: 400px;
+      height: 440px;
+      background-color: silver;
       border: 0.5px solid black;
       display: inline-block;
       margin: 20px;
     }
 
+        .introfont3{
+          font-size: 45px;
+          padding-bottom: 10px; 
+        }
+
+        .introfont4{
+          font-size: 20px;
+          color: silver;
+          padding-bottom: 5px;
+        }
+
+        .introfont5{
+          font-size: 30px;
+          color: silver;
+          padding-bottom: 20px;
+        }
+
+        .buttonintro{
+        background-color: #fed45c;
+        border-radius: 20px;
+        width: 300px;
+        height: 70px;
+        border: none;
+        margin-top: 15px;
+        float: left;
+      }
+
     .introdown{
       width: 1260px;
-      height: 300px;
+      height: 370px;
       border: 0.5px solid black;
       margin: 20px 20px 20px 330px;
+      padding: 10px 100px;
+      text-align: center;
     }
+
+        .introfont1{
+          font-size: 20px;
+          text-transform: uppercase;
+          padding-top: 5px;
+          padding-bottom: 20px; 
+        }
+
+        .introfont2{
+          font-size: 38px;
+          color: silver;
+          padding-bottom: 20px;
+        }
+
+
 
 .services{
   height: 360px;
@@ -161,18 +209,74 @@ header{
       display: inline-block;
       border: 0.5px solid black;
       margin: 50px 20px;
+      vertical-align: top;
     }
+
+          .servicefont1{
+          font-size: 30px;
+          padding: 15px;
+          text-transform: capitalize;
+        }
+
+          .servicefont2{
+          font-size: 20px;
+          color: silver;
+          padding-bottom: 5px;
+        }
+
+        
 
 
 
 .counter{
-  height: 420px;
-  background-color: #f0689e;
-  background-image: url(../img/bgcounterlayer.png),
-                    url(../img/bgcounterlayerp.png);
-  background-position: left top, right top;
+  position: relative;
+  height: 470px;
+ /* background-color: #f0689e;*/
+  background-image: url(../img/bgcounter.png);
+                    /*url(../img/bgcounterlayer.png),
+                    url(../img/bgcounterlayerp.png);*/
+  background-position: top;
   background-repeat: no-repeat;
 }
+
+    .counter img{
+      padding-top: 130px;
+      padding-left: 330px;
+    }
+
+    .counterright{
+      position: absolute;
+      top: 200px;
+      left: 1000px;
+    }
+
+        .counterfont{
+          color: white;
+          font-size: 50px;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+
+    .counterstat{
+      width: 250px;
+      display: inline-block;
+      text-align: left;
+      padding-top: 20px;
+    }
+
+        .counterstatfont1{
+          color: white;
+          font-size: 60px;
+          font-weight: bold;
+        }
+
+        .counterstatfont2{
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
 
 .latest{
   height: 760px;
@@ -185,7 +289,20 @@ header{
         height: 150px;
         border: 0.5px solid black;
         margin: 20px 20px 20px 330px;
+        text-align: center;
     }
+
+        .latestfont1{
+          font-size: 50px;
+          text-transform: capitalize;
+          padding: 5px;
+        }
+
+        .latestfont2{
+          font-size: 30px;
+          color: silver;
+          padding: 5px;
+        }
 
     .latestleft{
       width: 600px;
@@ -249,7 +366,20 @@ header{
       height: 150px;
       border: 0.5px solid black;
       margin:20px 20px 20px 350px;
+      text-align: center;
     }
+
+          .supportfont1{
+          font-size: 50px;
+          text-transform: capitalize;
+          padding: 5px;
+        }
+
+        .supportfont2{
+          font-size: 30px;
+          color: silver;
+          padding: 5px;
+        }
 
     .supportdown{
       width: 350px;
@@ -257,7 +387,54 @@ header{
       border: 0.5px solid black;
       display: inline-block;
       margin:20px;
+      vertical-align: top;
     }
+
+
+          .supportdownfont1{
+          font-size: 30px;
+          padding: 15px;
+          text-transform: uppercase;
+        }
+
+          .supportdownfont2{
+          font-size: 20px;
+          color: silver;
+          padding-bottom: 5px;
+        }
+
+          .buttonforum{
+          background-color: white;
+          border-radius: 20px;
+          border: 1px solid gray;
+          width: 200px;
+          height: 70px;
+          margin-top: 30px;
+        }
+
+        .buttonforumfont{
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: bold;
+        }
+
+        .buttondocument{
+          background-color: #fed45c;
+          border-radius: 20px;
+          width: 200px;
+          height: 70px;
+          border: none;
+          margin-top: 30px;
+      }
+
+        .buttonvideo{
+          background-color: white;
+          border-radius: 20px;
+          border: 1px solid gray;
+          width: 200px;
+          height: 70px;
+          margin-top: 30px;
+        }
 
 footer{
   height: 300px;
