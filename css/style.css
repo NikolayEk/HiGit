@@ -18,6 +18,139 @@
 }
 
 
+/*beginsprite*/
+.icondocument, .iconfacebook, .icongoogle, .iconlamp, .iconlinkedin, .iconmenu, .iconmessage, .iconmic, .iconspeed, .iconsupport, .icontwitter, .iconvideo, .logo1, .logo2, .logo3, .logo4, .logo5, .uisumo{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.icondocument{
+	background-position: -97px -103px ;
+	width: 69px;
+	height: 83px;
+	margin: 0 auto;
+}
+
+.iconfacebook{
+	background-position: -96px -227px ;
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+}
+
+.icongoogle{
+	background-position: -41px -228px ;
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+}
+
+.iconlamp{
+	background-position: -284px -113px ;
+	width: 40px;
+	height: 58px;
+	margin: 0 auto;
+}
+
+.iconlinkedin{
+	background-position: -213px -228px ;
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+	
+}
+
+.iconmenu{
+	background-position: -120px -334px ;
+	width: 99px;
+	height: 99px;
+}
+
+.iconmessage{
+	background-position: -38px -311px ;
+	width: 38px;
+	height: 33px;
+	margin: 0 auto;
+}
+
+.iconmic{
+	background-position: -347px -114px ;
+	width: 58px;
+	height: 51px;
+	margin: 0 auto;
+}
+
+.iconspeed{
+	background-position: -196px -112px ;
+	width: 59px;
+	height: 58px;
+	margin: 0 auto;
+}
+
+.iconsupport{
+	background-position: 0 -111px ;
+	width: 83px;
+	height: 78px;
+	margin: 0 auto;
+}
+
+.icontwitter{
+	background-position: -152px -228px ;
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+}
+
+.iconvideo{
+	background-position: -417px -110px ;
+	width: 83px;
+	height: 83px;
+	margin: 0 auto;
+}
+
+.logo1{
+	background-position: -333px -15px ;
+	width: 70px;
+	height: 51px;
+	margin: 0 auto;
+}
+
+.logo2{
+	background-position: -100px -7px ;
+	width: 63px;
+	height: 64px;
+	margin: 0 auto;
+}
+
+.logo3{
+	background-position: -247px -1px ;
+	width: 76px;
+	height: 76px;
+	margin: 0 auto;
+}
+
+.logo4{
+	background-position: -177px -11px ;
+	width: 52px;
+	height: 57px;
+	margin: 0 auto;
+}
+
+.logo5{
+	background-position: -25px -8px ;
+	width: 62px;
+	height: 62px;
+	margin: 0 auto;
+}
+
+.uisumo{
+	background-position: -35px -365px ;
+	width: 86px;
+	height: 23px;
+}
+
+/*endsprite*/
+
+
 
 body{
   max-width: 1920px;
@@ -31,8 +164,7 @@ header{
   background-image: url(../img/bgbannerlayer.png),
                     url(../img/circles.png);
   background-repeat: no-repeat;
-  background-position-y: 100%;
-  background-position-x: 70%;
+  background-position: 70% 100%, 70% 75%;
 }
 
     .logotype{
@@ -111,9 +243,15 @@ header{
       padding: 30px;
       text-align: center;
       display: inline-block;
+      vertical-align: top;
+      line-height: 50px;
       background-color: #ffffff;
       box-shadow: 0 0 20px gray;
           }
+
+      .logo:last-child{
+        margin-right: 0;
+      }
 
     .fontlogo{
       font-size: 18px;
