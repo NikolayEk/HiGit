@@ -1,227 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>maket</title>
+	<title>frontEND</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 <body>
+    <header>
 
-<!--banner-->
-	<header>
-		<div class="logotype">
-			<a href="#"><div class="uisumo" alt="uisumo"></div>
-		</div>
 		<nav>
+            <div class="logo">
+              <a href="index.html"><img src="img/nerds-logo.png"></a>
+            </div>
 			<ul>
-				<li><a href="#">about us</a></li>
-				<li><a href="#">products</a></li>
-				<li><a href="#">pricing</a></li>
-				<li><a href="#">contact</a></li>
-				<li><a href="#">news</a></li>
-				<!--<li><a href="#"><img src="img/iconmenu.png" alt="downmenu"></a></li>-->
+				<li><a href="#">студия</a></li>
+				<li><a href="#">клиенты</a></li>
+				<li><a href="catalog.html">магазин</a></li>
+				<li><a href="#">контакты</a></li>
+				<li><a href="#">корзина</a></li>
 			</ul>
 		</nav>
-		<div class="contentheader">
-			<p class="fontheadup"> your next product development company</p>
-			<p class="fontheaddown">Sign Up Now & Get one month premium membership for free!</p>
-			<button type="submit" name="get membership" alt="get me membership for free" class="buttonhead">
-				<span class="buttonheadfont">get me membership for free</span>
-			</button>
-		</div>
-	</header>
 
-<!--logos-->
-	<div class="logos">
-		<div class="logo">
-			<p class="fontlogo">laravel</p>
-			<div class="logo1"></div>
-		</div>
-		<div class="logo">
-			<p class="fontlogo">wordpress</p>
-			<div class="logo2"></div>
-		</div>
-		<div class="logo">
-			<p class="fontlogo">angularjs</p>
-			<div class="logo3"></div>
-		</div>
-		<div class="logo">
-			<p class="fontlogo">node js</p>
-			<div class="logo4"></div>
-		</div>
-		<div class="logo">
-			<p class="fontlogo">ionic</p>
-			<div class="logo5"></div>
-		</div>
-	</div>
+        <div class='slider'>
+            <input type="radio" name="slide" id="slider1" checked="checked">
+            <label for="slider1"></label>
+            <div class="wrapslide">
+                <div class="slideleft">
+                    <p class="fontslide1">Долго, дорого, скурпулезно.</p>
+                    <p class="fontslide2">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <button type="submit" name="learnmore" alt="learn more" class="buttonslide">Узнать больше</button>
+                </div>
+                <div class="slideright>">
+                    <img src="img/slide1.png"  height="100%">
+                </div>
+            </div>
 
-	<main>
+            <input type="radio" name="slide" id="slider2">
+            <label for="slider2"></label>
+            <div class="wrapslide">
+               <div class="slideleft">
+                    <p class="fontslide1">Любим математику как никто другой</p>
+                    <p class="fontslide2">Никакого креатива, только математические формулы для расчета идеальых пропорций.</p>
+                    <button type="submit" name="learnmore" alt="learn more" class="buttonslide">Узнать больше</button>
+                </div>
+                <div class="slideright>">
+                    <img src="img/slide2.png">
+                </div>
+            </div>
 
-<!--intro-->
-	<div class="intro">
-		<div class="introleft">
-			<p class="introfont1" align="left">we help brand to</p>
-			<p class="introfont3" align="left">Grow next level business</p>
-			<p class="introfont5" align="left">Here's why we're the #1 MOST trusted digital marketplace company in the worldwide</p>
-			<p class="introfont4" align="left">What do all consultants need?In short, trust. This is achieved with professional presentation and the ability to communicate clearly with existing and potential clients. Whether you are an accountant.</p>
-			<button type="submit" name="discover more" alt="discover more" class="buttonintro">
-				<span class="buttonheadfont">discover more</span>
-			</button>
-		</div>
-		<div class="introright">
-		</div>
-		<div class="introdown">
-			<div class="iconmessage"></div>
-			<p class="introfont1">why over 50k people choose us</p>
-			<p class="introfont2">"What do all consultants need? In short, trust. This is achieved with professional presentation and the ability to communicate clearly wiyh existing and potential trendy worldwide clients way of tired now & all."</p>
-			<p class="introfont1"><strong>tim anderson</strong> (director)</p>
-		</div>
-	</div>
+            <input type="radio" name="slide" id="slider3">
+            <label for="slider3"></label>
+            <div class="wrapslide">
+                <div class="slideleft">
+                    <p class="fontslide1">Только ночь, только хардкор</p>
+                    <p class="fontslide2">Работать днем, как все? Мы против этого. Блие к полуночи работа только начинается.</p>
+                    <button type="submit" name="learnmore" alt="learn more" class="buttonslide">Узнать больше</button>
+                </div>
+                <div class="slideright>">
+                    <img src="img/slide3.png">
+                </div>
+            </div>
+        </div>
+    </header>
 
-<!--sevices-->
-	<div class="services">
-		<div class="service">
-			<div class="iconlamp"></div>
-			<p class="servicefont1">pixel perfom design</p>
-			<p class="servicefont2">This is achieved with professional presentation and the ability to communicate clearly wiyh existing and potential clients.</p>
-		</div>
-		<div class="service">
-			<div class="iconspeed"></div>
-			<p class="servicefont1">sEO optimized</p>
-			<p class="servicefont2">This is achieved with professional presentation and the ability to communicate clearly wiyh existing and potential clients.</p>
-		</div>
-		<div class="service">
-			<div class="iconmic"></div>
-			<p class="servicefont1">dedicated support</p>
-			<p class="servicefont2">This is achieved with professional presentation and the ability to communicate clearly wiyh existing and potential clients.</p>
-		</div>
-	</div>
+    <main>
 
-<!--counter-->
-	<div class="counter">
-		<img src="img/notebook.png" alt="notebook">
-		<div class="counterright">
-			<p class="counterfont">some statistical facts</p>
-			<div class="counterstat">
-				<p class="counterstatfont1">25K</p>
-				<p class="counterstatfont2">happy customers</p>
-			</div>
-			<div class="counterstat">
-				<p class="counterstatfont1">9083</p>
-				<p class="counterstatfont2">ticket solved</p>
-			</div>
-			<div class="counterstat">
-				<p class="counterstatfont1">9/10</p>
-				<p class="counterstatfont2">average rating</p>
-			</div>
-		</div>
-	</div>
+<!--advantages-->
+        <div class="advantages">
+            <div class="advantage">
+                <img src="img/illustration1.png" alt="sites">
+                <p class="fontadv1">веб-сайты</p>
+                <p class="fontadv2">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                <button type="submit" name="get" alt="get" class="buttonadv1">заказать</button>
+            </div>
+            <div class="advantage">
+                <img src="img/illustration2.png" alt="applications">
+                <p class="fontadv1">приложения</p>
+                <p class="fontadv2">Покороите топ-10 приложений в AppStore и GooglePlay</p>
+                <button type="submit" name="get" alt="get" class="buttonadv2">заказать</button>
+            </div>
+            <div class="advantage">
+                <img src="img/illustration3.png" alt="presentations">
+                <p class="fontadv1">презентации</p>
+                <p class="fontadv2">Вы даже не подозреваете, насколько вы изумительны</p>
+                <button type="submit" name="get" alt="get" class="buttonadv3">заказать</button>
+            </div>
+        </div>
+        <hr>
 
-<!--latest products-->
-	<div class="latest">
-		<div class="latestup">
-			<p class="latestfont1">latest products</p>
-			<p class="latestfont2">Your next level Product development company assets</p>
-		</div>
-		<div class="latestleft">
-			<p align="left">
-				<a href="#">01</a>
-				<a href="#">02</a>
-				<a href="#">03</a>
-				<a href="#">04</a>
-				<a href="#">05</a>
-			</p>
-			<p class="fontlatestleft1">vanilla wp theme</p>
-			<p class="fontlatestleft2">What do all consultants need? In shorts, trust. This is achieved with professional presentation and the ability to communicate.</p>
-			<p class="fontlatestleft3">last update: january9, 2017</p>
-			<p class="fontlatestleft3">browser: ie9+, firefox, safari, opera, chrome</p>
-			<p class="fontlatestleft3">requirements: wordpress 4.7.1</p>
-			<p align="left">
-				<button type="submit" name="demo" alt="demo" class="buttondemo">
-					<span class="buttondemofont">demo</span>
-				</button>
-					<button type="submit" name="buy theme" alt="buy theme" class="buttonbuy">
-					<span class="buttonbuyfont">buy theme</span>
-				</button>
-			</p>
-		</div>
-		<div class="latestright">
-		</div>
-		
-	</div>
+<!--studio-->
+        <div class="studio">
+            <div class="studioleft">
+                <p class="fontstudio1">Мы - маленькая, но гордая дизайн-студия из Краснодара.</p>
+                <p class="fontstudio2">Исповедуем приципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+                <p class="fontstudio3">выполняем заказы на разработку:</p>
+                <ul>
+                    <li>Веб-сайтов любой сложности</li>
+                    <li>Мобильных приложений для IOS и Android</li>
+                    <li>Слайд-шоу и видео для корпоративных презентаций</li>
+                </ul>
+            </div>
+            <div class="studioright">
+                <img src="img/nerds-illustration.png">
+                <p class="fontstudio4">с 2004 года любим точность во всем:</p>
+                <div class="statstudio">
+                    <p class="statfont">146%</p>
+                    <p class="fontstudio2">Уровень самоотдачи</p>
+                </div>
+                <div class="statstudio">
+                    <p class="statfont">100%</p>
+                    <p class="fontstudio2">Соблюдение сроков</p>
+                </div>
+                <div class="statstudio">
+                    <p class="statfont">50%</p>
+                    <p class="fontstudio2">Минимальная предоплата</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="studiodown">
+                <hr>
+                <a href="#"><img src="img/logo-1.png"></a>
+                <a href="#"><img src="img/logo-2.png"></a>
+                <a href="#"><img src="img/logo-3.png"></a>
+                <a href="#"><img src="img/logo-4.png"></a>
+                <hr>
+            </div>
+        </div>
+        <div class="map">
+            <div class="foundus">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2ee70a2e2be2fd47ef15c1600d56e0e2c3b91c9f6782af442c60b361f3baac64&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            <div class="writeus">
+                <p class="fontmap1">nerds design studio </p>
+                <p class="fontmap2">191186, Санкт-Петербург, ул. Б. Конюшенная, д.19.8 </p>
+                <p class="fontmap2">тел. +7 (812) 275-75-75 </p>
+                <button type="submit" name="writeus" alt="writeus" class="buttonmap">напишите нам</button>
+            </div>
+        </div>
 
-<!--news-->
-	<div class="news">
-		<div class="newsleft">
-			<p class="newsleftfont1">request call back</p>
-			<p class="newsleftfont2">What do all consultants need?In short, trust. This is achieved with professional and the ability to communicate.</p>
-			<form>
-				<input class="formnews" type="text" placeholder="How can we help?">
-				<input class="formnews" type="text" placeholder="Your name">
-				<input class="formnews" type="text" placeholder="Your e-mail">
-			</form>
-			<button type="submit" name="request" alt="submit" class="buttonnewsleft">
-				<span class="buttonnewsleftfont">submit</span>
-			</button>
-		</div>
+    </main>
 
-		<div class="newsdown">
-			<p class="fontnewsdown1"><strong>company news</strong></p>
-				<div class="newsdownblock1"></div>
-				<div class="newsdownblock2"></div>
-			<p class="fontnewsdown1">frecuently asked question?</p>
-			<p class="fontnewsdown2">Is there an auto renew subscription?<a href="#"><img src="img/iconplus.png"></a> </p><hr>
-			<p class="fontnewsdown2">Can I upgrade to Themes Club from a ThemeForest purchase?<a href="#"><img src="img/iconplus.png"></a></p><hr>
-			<p class="fontnewsdown2">How many sites can I use my themes on?<a href="#"><img src="img/iconplus.png"></a></p><hr>
-		</div>
-	</div>
+    <footer>
+        <div class="footerleft">
+            <div class="circlelogo">
+                <a href="#"><img src="img/vk-icon.png"></a>
+            </div>
+            <div class="circlelogo">
+                 <a href="#"><img src="img/fb-icon.png"></a>
+            </div>
+            <div class="circlelogo">
+                 <a href="#"><img src="img/insta-icon.png"></a>
+            </div>
+        </div>
+        <div class="footerright">
+            <p class="fontfooter1">Давайте дружить, это выгодно!</p>
+            <p class="fontfooter2">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+    </footer>
 
-<!--help & support-->
-	<div class="support">
-		<div class="supportup">
-			<p class="supportfont1">help & support</p>
-			<p class="supportfont2">Find answers to all of your questions here.</p>
-		</div>
-		<div class="supportdown">
-			<div class="iconsupport"></div>
-			<p class="supportdownfont1">support</p>
-			<p class="supportdownfont2">Contact our experts and solve your problems immediately</p>
-			<button type="submit" name="forum" alt="forum" class="buttonforum">
-				<span class="buttonforumfont">forum</span>
-			</button>
-		</div>
-		<div class="supportdown">
-			<div class="icondocument"></div>
-			<p class="supportdownfont1">documentation</p>
-			<p class="supportdownfont2">Learn how to use Theme from our Users Guide</p>
-			<button type="submit" name="document" alt="learn more" class="buttondocument">
-				<span class="buttonforumfont">learn more</span>
-			</button>
-		</div>
-		<div class="supportdown">
-			<div class="iconvideo"></div>
-			<p class="supportdownfont1">tutorials</p>
-			<p class="supportdownfont2">Learn how to use Products with video tutorials</p>
-			<button type="submit" name="document" alt="watch now" class="buttonvideo">
-				<span class="buttonforumfont">watch now</span>
-			</button>
-		</div>
-	</div>
-
-	</main>	
-
-<!--footer-->
-	<footer>
-		<div class="footlogos">
-			<a href="#"><div class="iconfacebook"></div></a>
-			<a href="#"><div class="icontwitter"></div></a>
-			<a href="#"><div class="iconlinkedin"></div></a>
-			<a href="#"><div class="icongoogle"></div></a>
-		</div>
-		<address>
-			@2017 UISUMO Web Solutions. All Rights Reserved.
-		</address>
-	</footer>
 </body>
 </html>
