@@ -91,7 +91,7 @@ body{
 }
 
 header{
-    height: 590px;
+    min-height: 590px;
     background-color: #eeeeee;
 }
 
@@ -106,6 +106,23 @@ header{
       padding-top: 50px;
       padding-left: 140px;
       float: left;
+    }
+
+
+    .nerds{
+        width: 170px;
+        height: 70px;
+        background: url('../img/nerds-logo.png') no-repeat;
+        background-size: contain;
+        display: block;
+    }
+
+    .nerds:hover{
+        background: url('../img/nerds-logohover.png') no-repeat;
+    }
+
+    .nerds:active{
+        background: url('../img/nerds-logoactive.png') no-repeat;
     }
 
     nav ul {
@@ -125,6 +142,14 @@ header{
       margin-right: 50px;
     }
 
+    nav a:hover{
+        color: #fb565a;
+    }
+
+    nav a:active{
+        color: #bcbcbc;
+    }
+
     nav li{
       display: inline-block;
     }
@@ -135,6 +160,7 @@ header{
         background-position-y: 10px;
         padding-left: 30px;
     }
+
 /*----------------------------slider----------------------*/
     .slider{
         height: 430px;
@@ -205,17 +231,26 @@ header{
     /*-----------------endslider---------------------*/
 
     .buttonslide{
-     font-family: Roboto-Medium;
-     font-size: 16px;
-     color: white;
-     text-transform: uppercase;
-     float: left;
-     background-color: #fb565a;
-     border-radius: 10px;
-     width: 160px;
-     height: 50px;
-     border: none;
-     cursor: pointer;
+      font-family: Roboto-Medium;
+      font-size: 16px;
+      color: white;
+      text-transform: uppercase;
+      float: left;
+      background-color: #fb565a;
+      border-radius: 10px;
+      width: 160px;
+      height: 50px;
+      border: none;
+      cursor: pointer;
+    }
+
+     .buttonslide:hover{
+       background-color: #e74246;
+    }
+
+    .buttonslide:active{
+       background-color: #d7373b;
+       color: #e38486;
     }
 
     .fontslide1{
@@ -272,6 +307,15 @@ header{
      cursor: pointer;
         }
 
+    .buttonadv1:hover{
+        background-color: #e74246;
+    }
+
+    .buttonadv1:active{
+        background-color: #d7373b;
+        color: #e38486;
+    }
+
     .buttonadv2{
       font-family: Roboto-Medium;
       font-size: 16px;
@@ -286,6 +330,15 @@ header{
       cursor: pointer;
         }
 
+    .buttonadv2:hover{
+        background-color: #00bc6c;
+    }
+
+    .buttonadv2:active{
+        background-color: #00aa62;
+        color: #74c69a;
+    }
+
     .buttonadv3{
       font-family: Roboto-Medium;
       font-size: 16px;
@@ -299,6 +352,15 @@ header{
       border: none;
       cursor: pointer;
         }
+
+    .buttonadv3:hover{
+        background-color: #eab534;
+    }
+
+    .buttonadv3:active{
+        background-color: #e5a722;
+        color: #edc47c;
+    }
 
 hr{
     color: rgba(192, 192, 192, 0.2);
@@ -385,11 +447,85 @@ hr{
         margin-top: 70px;
     }
 
-    studiodown a{
-        padding: 0 50px;
-        margin: 50px 0;
+    .studiologo1{
+        display: inline-block;
+        width: 280px;
+        height: 100px;
+        margin: 50px 10px 50px 100px;
+        background: url('../img/logo-1.png') no-repeat;
+        background-size: contain;
+
     }
 
+    .studiologo1:hover{
+        background: url('../img/logo-1hover.png') no-repeat;
+        background-size: contain;
+    }
+
+    .studiologo1:active{
+        background: url('../img/logo-1active.png') no-repeat;
+        background-size: contain;
+    }
+
+     .studiologo2{
+        display: inline-block;
+        width: 280px;
+        height: 100px;
+        margin: 50px 10px;
+        background: url('../img/logo-2.png') no-repeat;
+        background-size: contain;
+
+    }
+
+    .studiologo2:hover{
+        background: url('../img/logo-2hover.png') no-repeat;
+        background-size: contain;
+    }
+
+    .studiologo2:active{
+        background: url('../img/logo-2active.png') no-repeat;
+        background-size: contain;
+    }
+
+    .studiologo3{
+        display: inline-block;
+        width: 280px;
+        height: 100px;
+        margin: 50px 10px;
+        background: url('../img/logo-3.png') no-repeat;
+        background-size: contain;
+
+    }
+
+    .studiologo3:hover{
+        background: url('../img/logo-3hover.png') no-repeat;
+        background-size: contain;
+    }
+
+    .studiologo3:active{
+        background: url('../img/logo-3active.png') no-repeat;
+        background-size: contain;
+    }
+
+    .studiologo4{
+        display: inline-block;
+        width: 280px;
+        height: 100px;
+        margin: 50px 10px;
+        background: url('../img/logo-4.png') no-repeat;
+        background-size: contain;
+
+    }
+
+    .studiologo4:hover{
+        background: url('../img/logo-4hover.png') no-repeat;
+        background-size: contain;
+    }
+
+    .studiologo4:active{
+        background: url('../img/logo-4active.png') no-repeat;
+        background-size: contain;
+    }
 
 
     .studiodown hr{
@@ -405,6 +541,9 @@ hr{
 }
 
     .foundus{
+        width: 100%;
+        height: 420px;
+        background: url('../img/mapbg.png');
         z-index: -1;
     }
 
@@ -433,6 +572,15 @@ hr{
         cursor: pointer;
     }
 
+    .buttonmap:hover{
+        background-color: #e74246;
+    }
+
+    .buttonmap:active{
+        background-color: #d7373b;
+        color: #e38486;
+    }
+
     .fontmap1{
         font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
         font-size: 18px;
@@ -449,6 +597,109 @@ hr{
         margin-bottom: 30px;
     }
 
+
+/*-------------------------Write Us-----------------------------*/
+    .writeusform{
+        display: none;
+        position: absolute;
+        top: 130%;
+        left: 30%;
+        width: 760px;
+        height: 600px;
+        padding: 80px 100px;
+        background-color: white;
+        box-shadow: 20px 20px 20px 5px gray;
+        z-index: 3;
+    }
+
+    .buttonclose{
+        position: absolute;
+        left: 800px;
+        border: none;
+        color: #fecccd;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .buttonwriteus1{
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        color: white;
+        text-transform: uppercase;
+        float: left;
+        margin-top: 50px;
+        background-color: #fb565a;
+        border-radius: 10px;
+        width: 260px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        }
+
+    .buttonwriteus1:hover{
+        background-color: #e74246;
+    }
+
+    .buttonwriteus1:active{
+        background-color: #d7373b;
+        color: #e38486;
+    }
+
+    .fontwriteusform1{
+        font-family: Roboto-Mediium, Arial, Helvetica, sans-serif;
+        font-size: 45px;
+    }
+
+    .fontwriteusform2{
+        font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin: 10px 0;
+        display: block;
+    }
+
+    .inputwriteus1{
+        width: 360px;
+        height: 50px;
+        font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+    }
+
+     .inputwriteus1:hover{
+         box-shadow: 5px 5px 10px 2px #fecccd;
+     }
+
+    .inputwriteus1:focus{
+        background-color: #fecccd;
+    }
+
+    .inputwriteus2{
+        width: 740px;
+        height: 120px;
+        font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 10px;
+        vertical-align: top;
+        box-sizing: border-box;
+    }
+
+     .inputwriteus2:hover{
+         box-shadow: 5px 5px 10px 2px #fecccd;
+     }
+
+    .inputwriteus2:focus{
+        background-color: #fecccd;
+    }
+
+    .inputform{
+        display: inline-block;
+        margin-right: 10px;
+    }
+/*-----------------------------------end Write Us-------------------------*/
 
 footer{
     width: 100%;
@@ -471,6 +722,14 @@ footer{
             display: inline-block;
             margin: 10px;
             text-align: center;
+        }
+
+        .circlelogo:hover{
+            background-color: #e74246;
+        }
+
+        .circlelogo:active{
+            background-color: #d7373b;
         }
 
         .circlelogo img{
@@ -500,3 +759,304 @@ footer{
             color: #444444;
             text-align: left;
         }
+
+        /*---------------classes for catalog.html-------------*/
+
+ .headercat{
+    min-height: 350px;
+    background-color: #eeeeee;
+}
+
+    .fontheadercat{
+        font-family: Roboto-Medium, Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        margin: 100px 350px;
+    }
+.mainup{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.mainup p{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 250px;
+}
+
+    .fontmainup1{
+        font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+.filter{
+    display: inline-block;
+}
+
+    .filter a{
+        font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #cacaca;
+        margin-right: 30px;
+    }
+
+    .filter a:last-child{
+        margin-right: 0px;
+    }
+
+    .filter a:hover{
+        color: #8b8b8b;
+    }
+
+    .filter a:active{
+        color: #000000;
+    }
+
+.mainleft{
+    width: 270px;
+    min-height: 700px;
+    margin-top: 60px;
+    margin-left: 140px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .price{
+        width: 100%;
+    }
+
+        .range{
+            width: 100%;
+            height: 50px;
+            background-color: #eeeeee;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .fontprice{
+            font-family: Robobto-Regular, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-right: 10px;
+        }
+
+        .pricetext{
+            box-sizing: border-box;
+            width: 80px;
+            height: 40px;
+            background-color: #eeeeee;
+            padding: 10px;
+            font-family: Robobto-Regular, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-right: 30px;
+            margin-top: 15px;
+            margin-bottom: 60px;
+            border: none;
+        }
+
+        .pricetext:last-child{
+            margin-right: 0px;
+        }
+
+    .grid{
+        width: 100%;
+        height: 170px;
+    }
+
+        .grid label{
+            cursor: pointer;
+        }
+
+
+    .properties{
+        width: 100%;
+        height: 250px;
+    }
+        .fontproperties1{
+            font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .fontproperties2{
+            font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #283136;
+            margin-left: 10px;
+            text-align: left;
+        }
+
+        .properties label{
+            cursor: pointer;
+        }
+
+
+     .buttonshow{
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        color: black;
+        text-transform: uppercase;
+        background-color: #eeeeee;
+        border-radius: 10px;
+        width: 270px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .buttonshow:hover{
+       background-color: #dfdfdf;
+    }
+
+    .buttonshow:active{
+       background-color: #d5d5d5;
+       color: #b5b5b5;
+    }
+
+.mainright{
+    width: 860px;
+    min-height: 1920px;
+    margin-left: 120px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.shablon{
+    width: 360px;
+    height: 620px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    float: left;
+    z-index: -1;
+    background: url('../img/browser.png') no-repeat;
+}
+
+    .shablon img{
+        position: relative;
+        top: 37px;
+        left: -2px;
+        z-index: -1;
+    }
+
+
+    .shablonhover{
+        display: none;
+        position: relative;
+        top: -230px;
+        width: 302px;
+        height: 200px;
+        text-align: center;
+        padding: 30px;
+        background-color: #eeeeee;
+        border: none;
+        z-index: 1;
+    }
+
+    .shablon:hover>.shablonhover{
+        display: block;
+    }
+
+
+    .fontshablon1{
+        font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .fontshablon2{
+        font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #666666;
+        padding: 0 35px;
+        margin-bottom: 30px;
+    }
+
+    .buttonshablon{
+      font-family: Roboto-Medium;
+      font-size: 16px;
+      color: white;
+      text-transform: uppercase;
+      float: left;
+      background-color: #fb565a;
+      border-radius: 10px;
+      width: 160px;
+      height: 50px;
+      border: none;
+      cursor: pointer;
+      margin-left: 65px;
+    }
+
+    .buttonshablon:hover{
+       background-color: #e74246;
+    }
+
+    .buttonshablon:active{
+       background-color: #d7373b;
+       color: #e38486;
+    }
+
+    .pages{
+        width: 450px;
+        height: 50px;
+        margin-left: 540px;
+        margin-top: 60px;
+    }
+
+        .numberpage{
+            float: left;
+            width: 50px;
+            height: 30px;
+            font-family: Roboto-Medium, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 20px;
+            margin-right: 10px;
+            background-color: #eeeeee;
+        }
+
+        .numberpage a{
+            display: block;
+            height: 100%;
+            color: black;
+            text-decoration: none;
+        }
+
+        .numberpage:hover{
+            background-color: #dfdfdf;
+        }
+
+        .numberpage:active{
+            background-color: #dfdfdf;
+            color: #a8a8a8;
+            border-top: 3px solid #bfbfbf;
+        }
+
+
+ .buttonnext{
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        color: black;
+        text-transform: uppercase;
+        background-color: #eeeeee;
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .buttonnext:hover{
+       background-color: #dfdfdf;
+    }
+
+    .buttonnext:active{
+       background-color: #d5d5d5;
+       color: #b5b5b5;
+    }

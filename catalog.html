@@ -8,10 +8,10 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
     <body>
-        <header>
+        <header class="headercat">
             <nav>
             <div class="logo">
-              <a href="index.html"><img src="img/nerds-logo.png"></a>
+              <a href="index.html" class="nerds"></a>
             </div>
 			<ul>
 				<li><a href="#">студия</a></li>
@@ -20,8 +20,129 @@
 				<li><a href="#">контакты</a></li>
 				<li><a href="#">корзина</a></li>
 			</ul>
+            <p class="fontheadercat">Магазин готовых шаблонов</p>
         </header>
         <main>
+
+            <div class="mainup">
+                <p class="fontmainup1">стоимость:</p>
+                <p class="fontmainup1">сортировать:</p>
+                <div class="filter">
+                    <a href="#">по цене</a>
+                    <a href="#">по типу</a>
+                    <a href="#">по названию</a>
+                    <a href="#">&#9660</a>
+                    <a href="#">&#9650</a>
+                </div>
+            </div>
+
+            <div class="mainleft">
+                <div class="price">
+                    <div class="range">
+                      <input type="range" min="0" max="15000" step="100" value="50"> 
+                    </div>
+                    <label class="fontprice" for="from">от</label>
+                    <input type="text" name="from" class="pricetext" id="from" placeholder="0">
+                    <label class="fontprice" for="to">до</label>
+                    <input type="text" name="to" class="pricetext" id="to" placeholder="15000">
+                </div>
+
+                <div class="grid">
+                    <p class="fontproperties1">сетка:</p>
+                    <div><input type="radio" name="variant1" value="v1" id="v1"><label for="v1" class="fontproperties2">адаптивная</label></div>
+                    <div><input type="radio" name="variant2" value="v2" id="v2"><label for="v2" class="fontproperties2">фиксированная</label></div>
+                    <div><input type="radio" name="variant3" value="v3" id="v3"><label for="v3" class="fontproperties2">резиновая</label></div>
+                </div>
+
+                <div class="properties">
+                    <p class="fontproperties1">особенности:</p>
+                    <div> <input type="checkbox" name="option1" value="p1" id="p1"><label for="p1" class="fontproperties2">слайдер</label></div>
+                    <div><input type="checkbox" name="option2" value="p2" id="p2"><label for="p2" class="fontproperties2">блок преимуществ</label></div>
+                    <div><input type="checkbox" name="option3" value="p3" id="p3"><label for="p3" class="fontproperties2">новости</label></div>
+                    <div><input type="checkbox" name="option4" value="p4" id="p4"><label for="p4" class="fontproperties2">галерея</label></div>
+                    <div><input type="checkbox" name="option5" value="p5" id="p5"><label for="p5" class="fontproperties2">корзина</label></div>
+                </div>
+                <button type="submit" name="show" alt="show" class="buttonshow">показать</button>
+            </div>
+<!-------------------------------------------Shablons-------------------------------------->
+            <div class="mainright">
+                <div class="shablon">
+                    <img src="img/img-sedona.png">
+                    <div class="shablonhover">
+                        <p class="fontshablon1">sedona</p>
+                        <p class="fontshablon2">Информационный сайт для туристов</p>
+                        <button type="submit" name="buy" alt="9900" class="buttonshablon">9900 руб.</button>
+                    </div>
+                </div>
+                <div class="shablon">
+                    <img src="img/img-pink.png">
+                    <div class="shablonhover">
+                        <p class="fontshablon1">pink app</p>
+                        <p class="fontshablon2">Продуктовый лендинг приложения для IOS и Android</p>
+                        <button type="submit" name="buy" alt="9900" class="buttonshablon">9900 руб.</button>
+                    </div>
+                </div>
+                <div class="shablon">
+                    <img src="img/img-barbershop.png">
+                    <div class="shablonhover">
+                        <p class="fontshablon1">barbershop</p>
+                        <p class="fontshablon2">Сайт салона красоты. Для мужчин, да.</p>
+                        <button type="submit" name="buy" alt="9900" class="buttonshablon">9900 руб.</button>
+                    </div>
+                </div>
+                <div class="shablon">
+                    <img src="img/img-mishka.png">
+                    <div class="shablonhover">
+                        <p class="fontshablon1">mishka</p>
+                        <p class="fontshablon2">Интернет-магазин вязаных игрушек</p>
+                        <button type="submit" name="buy" alt="9900" class="buttonshablon">9900 руб.</button>
+                    </div>
+                </div>
+                <div class="shablon">
+                    <img src="img/img-aplus.png">
+                     <div class="shablonhover">
+                        <p class="fontshablon1">a plus</p>
+                        <p class="fontshablon2">Лендинг курсов повышения квалификации</p>
+                        <button type="submit" name="buy" alt="9900" class="buttonshablon">9900 руб.</button>
+                    </div>
+                </div>
+                <div class="shablon">
+                    <img src="img/img-kvast.png">
+                    <div class="shablonhover">
+                        <p class="fontshablon1">кваст</p>
+                        <p class="fontshablon2">Промо-сайт производителя крафтового кваса</p>
+                        <button type="submit" name="buy" alt="9900" class="buttonshablon">9900 руб.</button>
+                    </div>
+                </div>
+            </div>
+    <!-------------------------------------------EndShablons-------------------------------------->
+
+            <div class="pages">
+                <div class="numberpage">
+                    <a href="#">1</a>
+                </div>
+                 <div class="numberpage">
+                    <a href="#">2</a>
+                </div>
+                 <div class="numberpage">
+                    <a href="#">3</a>
+                </div>
+                <button type="submit" name="next" alt="next" class="buttonnext">следующая</button>
+            </div>
+
+
+            <div class="map">
+                <div class="foundus">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2ee70a2e2be2fd47ef15c1600d56e0e2c3b91c9f6782af442c60b361f3baac64&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="writeus">
+                    <p class="fontmap1">nerds design studio </p>
+                    <p class="fontmap2">191186, Санкт-Петербург, ул. Б. Конюшенная, д.19.8 </p>
+                    <p class="fontmap2">тел. +7 (812) 275-75-75 </p>
+                    <button type="submit" name="writeus" alt="writeus" class="buttonmap">напишите нам</button>
+                </div>
+            </div>
+
         </main>
         <footer>
             <div class="footerleft">

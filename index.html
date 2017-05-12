@@ -12,7 +12,7 @@
 
 		<nav>
             <div class="logo">
-              <a href="index.html"><img src="img/nerds-logo.png"></a>
+              <a href="index.html" class="nerds"></a>
             </div>
 			<ul>
 				<li><a href="#">студия</a></li>
@@ -121,13 +121,14 @@
             <div class="clearfix"></div>
             <div class="studiodown">
                 <hr>
-                <a href="#"><img src="img/logo-1.png"></a>
-                <a href="#"><img src="img/logo-2.png"></a>
-                <a href="#"><img src="img/logo-3.png"></a>
-                <a href="#"><img src="img/logo-4.png"></a>
+                <a href="#" class="studiologo1"></a>
+                <a href="#" class="studiologo2"></a>
+                <a href="#" class="studiologo3"></a>
+                <a href="#" class="studiologo4"></a>
                 <hr>
             </div>
         </div>
+
         <div class="map">
             <div class="foundus">
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2ee70a2e2be2fd47ef15c1600d56e0e2c3b91c9f6782af442c60b361f3baac64&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
@@ -136,11 +137,12 @@
                 <p class="fontmap1">nerds design studio </p>
                 <p class="fontmap2">191186, Санкт-Петербург, ул. Б. Конюшенная, д.19.8 </p>
                 <p class="fontmap2">тел. +7 (812) 275-75-75 </p>
-                <button type="submit" name="writeus" alt="writeus" class="buttonmap">напишите нам</button>
+                <button type="submit" name="writeus" alt="writeus"  class="buttonmap" >напишите нам</button>
             </div>
         </div>
-
     </main>
+
+       
 
     <footer>
         <div class="footerleft">
@@ -160,5 +162,23 @@
         </div>
     </footer>
 
+     <div class="writeusform">
+         <button type="close" name="close" alt="close" class="buttonclose">X</button>
+         <p class="fontwriteusform1">Напишите нам</p>
+         <form>
+             <div class="inputform">
+                <label for="name" class="fontwriteusform2">Ваше имя:</label>
+                <input type="text" placeholder="Представьтесь,пожалуйста" class="inputwriteus1" id="name">
+             </div>
+             <div class="inputform">
+                <label for="name" class="fontwriteusform2">Ваш e-mail:</label>
+                <input type="text" placeholder="Для отправки ответа" class="inputwriteus1" id="mail">
+             </div>
+             <label for="name" class="fontwriteusform2">Текст письма:</label>
+             <input type="text" placeholder="В свободной форме" class="inputwriteus2" id="message">
+             <button type="submit" name="sell" alt="sell" class="buttonwriteus1">отправить</button>
+    </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
