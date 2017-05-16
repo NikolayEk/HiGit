@@ -15,10 +15,10 @@
               <a href="index.html" class="nerds"></a>
             </div>
 			<ul>
-				<li><a href="#">студия</a></li>
+				<li><a href="index.html" class="active">студия</a></li>
 				<li><a href="#">клиенты</a></li>
 				<li><a href="catalog.html">магазин</a></li>
-				<li><a href="#">контакты</a></li>
+				<li><a href="#contacts">контакты</a></li>
 				<li><a href="#">корзина</a></li>
 			</ul>
 		</nav>
@@ -126,6 +126,7 @@
                 <a href="#" class="studiologo3"></a>
                 <a href="#" class="studiologo4"></a>
                 <hr>
+                <a name="contacts"></a>
             </div>
         </div>
 
@@ -139,6 +140,24 @@
                 <p class="fontmap2">тел. +7 (812) 275-75-75 </p>
                 <button type="submit" name="writeus" alt="writeus"  class="buttonmap" >напишите нам</button>
             </div>
+            
+     <div class="writeusform">
+         <button type="close" name="close" alt="close" class="buttonclose">X</button>
+         <p class="fontwriteusform1">Напишите нам</p>
+         <form>
+             <div class="inputform">
+                <label for="name" class="fontwriteusform2">Ваше имя:</label>
+                <input type="text" placeholder="Представьтесь,пожалуйста" class="inputwriteus1" id="name">
+             </div>
+             <div class="inputform">
+                <label for="name" class="fontwriteusform2">Ваш e-mail:</label>
+                <input type="text" placeholder="Для отправки ответа" class="inputwriteus1" id="mail">
+             </div>
+             <label for="name" class="fontwriteusform2">Текст письма:</label>
+             <input type="text" placeholder="В свободной форме" class="inputwriteus2" id="message">
+             <button type="submit" name="sell" alt="sell" class="buttonwriteus1">отправить</button>
+      </div>
+
         </div>
     </main>
 
@@ -162,22 +181,6 @@
         </div>
     </footer>
 
-     <div class="writeusform">
-         <button type="close" name="close" alt="close" class="buttonclose">X</button>
-         <p class="fontwriteusform1">Напишите нам</p>
-         <form>
-             <div class="inputform">
-                <label for="name" class="fontwriteusform2">Ваше имя:</label>
-                <input type="text" placeholder="Представьтесь,пожалуйста" class="inputwriteus1" id="name">
-             </div>
-             <div class="inputform">
-                <label for="name" class="fontwriteusform2">Ваш e-mail:</label>
-                <input type="text" placeholder="Для отправки ответа" class="inputwriteus1" id="mail">
-             </div>
-             <label for="name" class="fontwriteusform2">Текст письма:</label>
-             <input type="text" placeholder="В свободной форме" class="inputwriteus2" id="message">
-             <button type="submit" name="sell" alt="sell" class="buttonwriteus1">отправить</button>
-    </div>
     <script src="js/script.js"></script>
 </body>
 
